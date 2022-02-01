@@ -1,0 +1,25 @@
+body {
+    background-color: #DEBC9E;
+}
+
+h1 {
+    background-color: #71DE7A;
+    color: #5D4A91;
+    padding: 10px;
+}
+
+h3 {
+    color: #71687A;
+    background-color: #9EDEB3;
+    padding: 10px;
+}
+
+p {
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+}
+
+h1+h3 {
+    color: red;
+}
