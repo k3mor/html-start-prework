@@ -33,21 +33,24 @@ console.log("*** Przerywnik ***");
 //Zad. 33-js-warunki
 let zmA = 12;
 //Sposób 1 if:
-if(zmA>10){console.log("Wartość zmA jest WIĘKSZA od 10 i wynosi: " + zmA)}
-if(zmA<10){console.log("Wartość zmA jest MNIEJSZA od 10 i wynosi: " + zmA)}
-if(zmA==10){console.log("Wartość zmA jest RÓWNA : " + zmA)}
+if(zmA>10){
+    console.log("Wartość zmA jest WIĘKSZA od 10 i wynosi: " + zmA)
+}
+if(zmA<10){
+    console.log("Wartość zmA jest MNIEJSZA od 10 i wynosi: " + zmA)
+}
+if(zmA==10){
+    console.log("Wartość zmA jest RÓWNA : " + zmA)
+}
 //Sposób 2 if/else
 console.log("*** Przerywnik ***");
-if(zmA>10)
-    {
+if(zmA>10){
         console.log("Wartość zmA jest WIĘKSZA od 10 i wynosi: " + zmA);
-    }else if(zmA<10)
-        {
+}else if(zmA<10){
             console.log("Wartość zmA jest MNIEJSZA od 10 i wynosi: " + zmA);
-        }else if(zmA==10)
-            {
-                console.log("Wartość zmA jest RÓWNA : " + zmA);
-            }
+}else(zmA==10){
+            console.log("Wartość zmA jest RÓWNA : " + zmA);
+}cd
 console.log("*** Przerywnik ***");
 //Zad 34-js-suma-tabZmiennych
 let firstNumber = 1, secondNumber = 2;
